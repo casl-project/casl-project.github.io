@@ -1,0 +1,392 @@
+/* || CSS Resets */
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+button {
+    background-color: transparent;
+    color: inherit;
+    border-width: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* || Global variables */
+:root {
+    /* Colors */
+    --color-white: #FFF;
+    --color-black: #000;
+    --color-grey-light: #EAF5FF;
+    --color-pet-blue-darkest: #0054CB;
+    --color-pet-blue-dark:  #0054CC;
+    --color-pet-blue-shaded: #D0E8FF;
+    --color-pet-blue-bright: #066DFF;
+    --color-pet-blue-light: #F2F9FF;
+    --color-blue-50: rgba(208, 232, 255, 0.5);
+    --color-blue-shadow: rgba(141, 187, 251, 1);
+
+
+
+
+    /* view settings */
+    --min-width: 794px;
+
+    /* Application vars */
+    --color-nav-links: var(--color-white);
+    --color-main-bg: var(--color-grey-light);
+    --color-main-text: var(--color-pet-blue-dark);
+    --color-main-heading-text: var(--color-pet-blue-darkest);
+    --color-primary-button-text: var(--color-white);
+    --color-primary-button-bg: var(--color-pet-blue-bright);
+    --color-example-bg: var(--color-pet-blue-dark);
+    --color-footer-bg: var(--color-pet-blue-light);
+    --color-hex-inactive: var(--color-pet-blue-shaded);
+    --color-hex-active: var(--color-pet-blue-dark);
+    --color-ex-number: var(--color-blue-50);
+    --color-update-card-text: var(--color-black);
+    --color-update-card-bg: rgba(255, 255, 255, 0.5);
+    --color-update-card-border: var(--color-blue-shadow);
+    --color-update-card-footer-bg: var(--color-pet-blue-shaded);
+
+
+    --summary-width: var(--min-width);
+
+
+
+}
+/* || General */
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 1rem;
+    color: var(--color-main-text);
+    margin: 0;
+    background-color: var(--color-main-bg);
+    min-width: var(--min-width);
+    width: auto !important;
+}
+
+a.button {
+    height: 70px;
+    border-radius: 16px;
+    color: var(--color-primary-button-text);
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--color-primary-button-bg);
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* || Header and Navigation */
+header {
+    width: 100%;
+    background: linear-gradient(89.97deg, #0F33B5 19.09%, #056DFF 40%, #9AEBFB 80.86%);
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .header-nav {
+    color: var(--color-nav-links);
+    width: 100%;
+    margin-left: 10%;
+}
+
+header .header-nav a {
+    margin: 0 20px;
+}
+
+header .header-logo {
+    margin-left: 20px;
+}
+
+/* || Main page elements */
+h1 {
+    color: var(--color-main-heading-text);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+h2 {
+    color: var(--color-main-text);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+h3 {
+    color: var(--color-main-text);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.main-container {
+    margin: 0 auto;
+    padding: 30px 0;
+    width: var(--summary-width);
+}
+
+/* || Summary section */
+.summary-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 30px;
+    width: var(--summary-width);
+    height: 820px;
+    background-image: url('../img/casl_logo-summarybg.svg');
+    background-size: var(--summary-width);
+    background-position: 0 -50px;
+    background-repeat: no-repeat;
+}
+
+.summary-title, .summary-tag {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.summary-tag {
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.github-container {
+    height: 70px;
+    margin: auto;
+}
+
+.logo-main {
+    width: 450px;
+}
+
+.csl-logo {
+    height: 150px;
+    margin: auto;
+}
+.csl-logo > img {
+    height: 150px;
+}
+
+.summary-container .col {
+    width: 225px;
+}
+
+/* || Example section */
+#examples {
+    height: 750px;
+    margin-top: -70px;
+}
+
+#examples h2 {
+    margin-left: calc(50% - var(--min-width)/2);
+}
+
+.ex-heading {
+    color: var(--color-ex-number);
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    top: -30px;
+}
+
+.ex-title {
+    margin-top: -25px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.ex-summary {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -.25px;
+}
+
+.ex-bottom {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -15px;
+    z-index: 10;
+}
+
+.hexagon-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.bottom-row {
+    margin-top: -94px;
+}
+
+/* Hexagons: reference http://brenna.github.io/csshexagon/ and http://jtauber.github.io/articles/css-hexagon.html */
+.hexagon {
+    position: relative;
+    width: 350px; 
+    height: 202.07px;
+    background-color: var(--color-hex-inactive);
+    margin: 101.04px 4px;
+    min-width: 350px;
+  }
+  
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 175px solid transparent;
+    border-right: 175px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 101.04px solid var(--color-hex-inactive);
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 101.04px solid var(--color-hex-inactive);
+}
+
+.hexagon.active {
+    background-color: var(--color-hex-active);
+}
+
+.hexagon.active:before {
+    border-bottom: 101.04px solid var(--color-hex-active);
+}
+
+.hexagon.active:after {
+    border-top: 101.04px solid var(--color-hex-active);
+}
+
+.hex-content {
+    padding: 0 5px;
+    text-align: center;
+    color: var(--color-white);
+}
+
+/* || Updates section */
+.updates-container {
+    color: var(--color-update-card-text);
+    width: var(--min-width);
+    height: 525px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.update-card {
+    background-color: var(--color-update-card-bg);
+    width: 254px;
+    min-width: 254px;
+    height: 210px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid var(--color-update-card-border);
+    border-radius: 2px;
+}
+
+.up-card-logo {
+    max-width: 240px;
+    max-height: 60px;
+    margin: 5px auto;
+}
+
+.up-card-logo img {
+    max-width: 240px;
+    max-height: 60px;
+}
+
+.up-card-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 0 2px;
+}
+
+.up-card-subtitle {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 16px;
+    margin: 0 2px;
+}
+
+.up-card-desc {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    margin: 0 2px;
+}
+
+.up-card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    background-color: var(--color-pet-blue-shaded);
+    height: 15px;
+    align-items: center;
+    padding: 10px;
+}
+
+.update-card a {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--color-pet-blue-bright);
+}
+
+/* || Partners section */
+#partners img {
+    height: 44px;
+    margin: 10px 10px 10px 0;
+}
+
+/* || Footer */
+.footer {
+    background-color: var(--color-footer-bg);
+}

@@ -2,49 +2,36 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-
 body {
-  padding-bottom: 40px;
   color: #000;
-}
-
-p{
-  font-size:1.5rem;
-}
-
-.blog_image_1 {
-  width:100%;
-  margin-top:10px;
-  margin-bottom:20px;
 }
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
-
-
 /*Github icon in this section*/
 .hidden {
-	position: absolute;
-	overflow: hidden;
-	width: 0;
-	height: 0;
-	pointer-events: none;
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  pointer-events: none;
 }
 .github {
-	display: block;
-	align-self: end;
-	grid-area: github;
-	justify-self: start;
+  display: block;
+  align-self: end;
+  grid-area: github;
+  justify-self: start;
 }
 
-.icon--github{
+.icon--github {
   display: block;
   width: 1.7em;
   height: 1.7em;
   margin: 0 auto;
   fill: currentColor;
 }
+
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
@@ -67,23 +54,17 @@ p{
   width: auto;
 }
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
-  height: 200px;
-  margin-bottom: 30px;
+  height: 500px;
+  margin-bottom: 60px;
 }
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 200px;
+  height: 500px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -94,7 +75,9 @@ p{
   height: 500px;
 }
 
-
+.btn {
+  padding: 6px;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -103,14 +86,10 @@ p{
   margin-bottom: 20px;
   text-align: center;
 }
-.marketing h2 {
-  font-weight: normal;
-}
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
 }
-
 
 /* Featurettes
 ------------------------- */
@@ -126,11 +105,50 @@ p{
   letter-spacing: -1px;
 }
 
+/*Three Cards from tutorials, examples to model zoo*/
+.threecard {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.14), 0 2px 2px 0 rgba(0, 0, 0, 0.12),
+    0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  background-color: rgb(242, 249, 255);
+  margin-bottom: 15px;
+}
 
+.threecard:hover {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0 3px 14px 3px rgba(0, 0, 0, 0.12), 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo-group {
+  height: 70px;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
+  /* Carousel base class */
+  .carousel {
+    height: 600px;
+    margin-bottom: 60px;
+  }
+  /* Declare heights because of positioning of img element */
+  .carousel .item {
+    height: 600px;
+    background-color: #777;
+  }
+  .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 600px;
+  }
+
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
@@ -163,6 +181,6 @@ p{
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 50px;
   }
 }

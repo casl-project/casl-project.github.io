@@ -49,6 +49,17 @@
   letter-spacing: 0em;
   margin-bottom: 25px;
 }
+
+.featurette {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: scroll;
+}
+
+.footer {
+  padding-top: 50px;
+}
+
 @media screen and (max-width: 400px) {
   .hero h1 {
     font-size: 30px;
@@ -79,6 +90,9 @@
   color: #672fff;
 }
 
+.marketing {
+  overflow: hidden;
+}
 .marketing-buttons a {
   width: 45%;
   max-width: 120px;
@@ -122,12 +136,12 @@
 }
 
 .install-selector .line-option.selected {
-  background: #6700ff;
+  background: rgb(0, 84, 204);;
   color: white;
 }
 
 .install-selector .line-option:hover {
-  background: #6700ff;
+  background: rgb(0, 84, 204);;
   color: white;
   cursor: pointer;
 }
@@ -159,13 +173,13 @@
   height: 48px;
   width: 160px;
   line-height: 46px;
-  padding: 10px 5px;
+  padding: 10px 0;
   /* border: 2px solid #fff; */
-  border: 2px solid #4169e1 /*#6700ff*/;
+  border: 2px solid #4169e1 /*#0F33B5*/;
   /* color: #fff; */
   color: black;
   border-radius: 24px;
-  /* background: #6700ff; */
+  /* background: #0F33B5; */
   background: #fff;
   text-decoration: none;
   display: inline-block;
@@ -185,6 +199,7 @@
 
 .short-description {
   padding-top: 10px;
+  height: 50px;
 }
 
 .coming-soon-description {
@@ -202,12 +217,13 @@
   left: 15px;
   top: 0;
   width: calc(100% - 30px);
-  height: 100%;
-  font-size: 16px;
+  min-height: 95%;
+  font-size: 12px;
   line-height: 20px;
   padding: 30px;
   background: rgb(255, 255, 255);
   display: none;
+  z-index: 100;
 }
 
 .card-desc-close {

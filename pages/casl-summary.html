@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="CASL Projects Summary -  for machine learning in the real world. Open source projects making up CASL include AdaptDL, AutoDist, Tuun, Texar, Texar-PyTorch, Forte, Stave. Partners include Petuum, Inc. and Carnegie Mellon University.">
+
+        <!-- casl-summary specific assets -->
+        <link href="casl-summary-assets/css/bootstrap.css" rel="stylesheet" />
+        <link href="casl-summary-assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+        <script src="casl-summary-assets/js/ie-emulation-modes-warning.js"></script>
+        <link href="casl-summary-assets/css/carousel.css" rel="stylesheet" />
+        <link href="casl-summary-assets/css/index.css" rel="stylesheet" /><link rel="stylesheet" href="../assets/css/normalize.css">
+
+        <!-- shared project assets -->
+        <link rel="stylesheet" href="../assets/css/index.css">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700,800">
+        <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+        <link rel="manifest" href="../site.webmanifest">
+        <title>CASL Projects - An open toolkit for composable, automatic, and scalable learning</title>
+    </head>
+    <body style="min-width: unset; width: unset;">
+        <header>
+            <div class="header-logo">
+                <a href="../index.html"><img src="../assets/img/casl_logo-neg.svg" alt="CASL"></a>
+            </div>
+        </header>
+        <main>
+            <div class="container marketing" style="margin: 25px auto;">
+                <h3>CASL provides a unified toolkit for composable, automatic, and scalable
+                    machine learning systems, including distributed training, resource-adaptive
+                    scheduling, hyperparameter tuning, and compositional model construction.</h3>
+            </div>
+
+            <div class="container marketing">
+                <!-- Three columns of text below the carousel -->
+                <!-- First Row -->
+                <div class="row">
+                    <div class="col-lg-3">
+                    <div class="threecard">
+                        <div class="logo-group">
+                        <img
+                            class="img-circle"
+                            src="casl-summary-assets/assets/adaptdl-text.png"
+                            alt="adapt_dl"
+                            height="70"
+                        />
+                        </div>
+            
+                        <div class="short-description">
+                            <p>Resource-adaptive cluster scheduler for deep learning training.</p>
+                        </div>
+            
+                        <h2 class="card-button">
+                        <a href="#">
+                            AdapdDL: About
+                        </a>
+                        <div class="card-description">
+                            <span class="card-desc-close">&times;</span>
+                            AdaptDL is a resource-adaptive deep learning (DL) training and scheduling framework. The goal of AdaptDL is to make distributed DL easy and efficient in dynamic-resource environments such as shared clusters and the cloud.
+                            </div>
+                        </h2>
+            
+                        <div class="marketing-buttons">
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/petuum/adaptdl"
+                            role="button"
+                            >
+                            <img
+                                src="casl-summary-assets/assets/GitHub-Mark-32px.png"
+                            />Github &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="https://adaptdl.readthedocs.org/"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/document-icon.png"
+                            />Docs &raquo;</a
+                            >
+                        </p>
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/petuum/adaptdl/tree/master/examples"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/example-icon.png"
+                            />Examples &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="https://adaptdl.readthedocs.io/en/latest/"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/teacher-icon.png"
+                            />Tutorials &raquo;</a
+                            >
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+            
+                    <div class="col-lg-3">
+                    <div class="threecard">
+                        <div class="logo-group">
+                        <img
+                            class="img-circle"
+                            src="casl-summary-assets/assets/autodist-text.png"
+                            alt="autodist"
+                            height="55"
+                        />              
+                        </div>
+            
+                        <div class="short-description">
+                            <p>Speed up and distribute your Deep Learning models automatically.</p>
+                        </div>
+            
+                        <h2 class="card-button">
+                        <a href="#">
+                            AutoDist: About
+                        </a>
+                        <div class="card-description">
+                            <span class="card-desc-close">&times;</span>
+                            AutoDist is a distributed deep learning training engine for TensorFlow. AutoDist provides a user-friendly interface to distribute the training of a wide variety deep learning models across many GPUs with scalability and minimal code change.
+                        </div>
+                        </h2>
+            
+                        <div class="marketing-buttons">
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/petuum/autodist"
+                            role="button"
+                            >
+                            <img
+                                src="casl-summary-assets/assets/GitHub-Mark-32px.png"
+                            />Github &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="https://petuum.github.io/autodist"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/document-icon.png"
+                            />Docs &raquo;</a
+                            >
+                        </p>
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/petuum/autodist/tree/master/examples/benchmark"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/example-icon.png"
+                            />Examples &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="https://petuum.github.io/autodist/usage/tutorials/getting-started.html"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/teacher-icon.png"
+                            />Tutorials &raquo;</a
+                            >
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+            
+                    <div class="col-lg-3">
+                    <div class="threecard">
+                        <div class="logo-group">
+                        <img
+                            class="img-circle"
+                            src="casl-summary-assets/assets/tuun.png"
+                            alt="tuun"
+                            height="48"
+                        />
+                        </div>
+            
+                        <div class="short-description">
+                            <p>Efficient hyperparameter tuning via uncertainty modeling</p>
+                        </div>
+            
+                        <h2 class="card-button">
+                        <a href="#">
+                            Tuun: About
+                        </a>
+                        <div class="card-description">
+                            <span class="card-desc-close">&times;</span>
+                            Tuun is a toolkit for efficient hyperparameter tuning via uncertainty modeling, with a focus on flexible model choice, scalability, and use in distributed settings.
+                        </div>
+                        </h2>
+            
+                        <div class="marketing-buttons">
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/petuum/tuun"
+                            role="button"
+                            >
+                            <img
+                                src="casl-summary-assets/assets/GitHub-Mark-32px.png"
+                            />Github &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="#"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/document-icon.png"
+                            />Docs &raquo;</a
+                            >
+                        </p>
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="#"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/example-icon.png"
+                            />Examples &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="#"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/teacher-icon.png"
+                            />Tutorials &raquo;</a
+                            >
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+            
+                </div>
+            
+                <!-- Second Row -->
+                <div class="row">
+                    <div class="col-lg-3">
+                    <div class="threecard">
+                        <div class="logo-group">
+                        <img
+                            class="img-circle"
+                            src="casl-summary-assets/assets/texar-text.png"
+                            alt="texar"
+                            height="55"
+                        />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img
+                            class="texar-subcategory-img"
+                            class="img-circle"
+                            src="casl-summary-assets/assets/tensorflow.png"
+                            alt="texar"
+                        />
+                        </div>
+            
+                        <div class="short-description">
+                            <p>Toolkit for Machine Learning and Text Generation</p>
+                        </div>
+            
+                        <h2 class="card-button">
+                        <a href="#">
+                            Texar-TF: About
+                        </a>
+                        <div class="card-description">
+                            <span class="card-desc-close">&times;</span>
+                            Texar is a highly modularized and customizable toolkit to support a broad set of machine
+                            learning (ML), especially natural language processing (NLP) and text generation tasks.</br></br>
+            
+                            Texar provides comprehensive modules for <b>data processing</b>, <b>model architectures</b>,
+                            <b>loss functions</b>, <b>training and inference algorithms</b>, <b>evaluation</b>, etc.
+                            </br></br>
+            
+                            Use Texar to compose whatever models and algorithms you want.
+                        </div>
+                        </h2>
+            
+                        <div class="marketing-buttons">
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/asyml/texar"
+                            role="button"
+                            >
+                            <img
+                                src="casl-summary-assets/assets/GitHub-Mark-32px.png"
+                            />Github &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="https://texar.readthedocs.io/en/latest/"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/document-icon.png"
+                            />Docs &raquo;</a
+                            >
+                        </p>
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/asyml/texar/tree/master/examples"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/example-icon.png"
+                            />Examples &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/asyml/texar/tree/master/examples"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/teacher-icon.png"
+                            />Tutorials &raquo;</a
+                            >
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+            
+                    <div class="col-lg-3">
+                    <div class="threecard">
+                        <div class="logo-group">
+                        <img
+                            class="img-circle"
+                            src="casl-summary-assets/assets/texar-text.png"
+                            alt="texar"
+                            height="55"
+                        />
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        <img
+                            class="texar-subcategory-img"
+                            class="img-circle"
+                            src="casl-summary-assets/assets/pytorch.png"
+                            alt="texar"
+                        />
+                        </div>
+            
+                        <div class="short-description">
+                            <p>Toolkit for Machine Learning and Text Generation</p>
+                        </div>
+            
+                        <h2 class="card-button">
+                        <a href="#">
+                            Texar-PyTorch: About
+                        </a>
+                        <div class="card-description">
+                            <span class="card-desc-close">&times;</span>
+                            Texar-PyTorch is the PyTorch equivalence of Texar-TF, with mostly the <b>same</b>
+                            interfaces. </br></br>
+            
+                            Texar-PyTorch integrates many of the best features of TensorFlow into PyTorch,
+                            delivering a set of highly usable and customizable modules superior to PyTorch
+                            native ones, including
+                            <ul>
+                                <li> <b>Data:</b> More ready-to-use APIs; more customizable; more efficient
+                                <li> <b>Model:</b> Better factorization; more comprehensive high-level APIs
+                                <li> <b>Training:</b> High-level APIs to avoid any boilerplate code
+                            </ul>
+                        </div>
+                        </h2>
+            
+                        <div class="marketing-buttons">
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/asyml/texar-pytorch"
+                            role="button"
+                            >
+                            <img
+                                src="casl-summary-assets/assets/GitHub-Mark-32px.png"
+                            />Github &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="https://texar-pytorch.readthedocs.io/en/latest"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/document-icon.png"
+                            />Docs &raquo;</a
+                            >
+                        </p>
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/asyml/texar-pytorch/tree/master/examples"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/example-icon.png"
+                            />Examples &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/asyml/texar-pytorch/tree/master/examples"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/teacher-icon.png"
+                            />Tutorials &raquo;</a
+                            >
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+            
+                    <div class="col-lg-3">
+                    <div class="threecard">
+                        <div class="logo-group">
+                        <img
+                            class="img-circle"
+                            src="casl-summary-assets/assets/Forte-dark-text.png"
+                            alt="forte"
+                            height="55"
+                        />
+                        </div>
+            
+                        <div class="short-description">
+                            <p>NLP Pipeline with Text Analysis, Generation, & Retrieval</p>
+                        </div>
+            
+                        <h2 class="card-button">
+                        <a href="#">
+                            Forte: About
+                        </a>
+                        <div class="card-description">
+                            <span class="card-desc-close">&times;</span>
+                            Forte is a high-level and customizable toolkit for building arbitrary complex NLP pipelines.
+                            With Forte, you can:
+                            <ul>
+                                <li> Plug in any NLP components in a pipeline, including <b>text analysis</b>,
+                                    <b>generation</b>, <b>retrieval</b>, etc.
+                                <li> Wrap any off-the-shelf NLP models from other libraries as pipeline components,
+                                    such as <b>spaCy</b>, <b>StanfordNLP</b>, <b>AllenNLP</b>, etc.
+                                <li> Obtain a <b>uniform representation</b> of data and intermediate results throughout
+                                    pipeline.
+                            </ul>
+                        </div>
+                        </h2>
+            
+                        <div class="marketing-buttons">
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/asyml/forte"
+                            role="button"
+                            >
+                            <img
+                                src="casl-summary-assets/assets/GitHub-Mark-32px.png"
+                            />Github &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="https://asyml-forte.readthedocs.io/en/latest/?badge=latest"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/document-icon.png"
+                            />Docs &raquo;</a
+                            >
+                        </p>
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/asyml/forte/tree/master/examples"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/example-icon.png"
+                            />Examples &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/asyml/forte/wiki"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/teacher-icon.png"
+                            />Tutorials &raquo;</a
+                            >
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+            
+                    <div class="col-lg-3">
+                    <div class="threecard">
+                        <div class="logo-group">
+                        <img
+                            class="img-circle"
+                            src="casl-summary-assets/assets/Stave-dark-text@4x.png"
+                            alt="stave"
+                            height="55"
+                        />
+                        </div>
+            
+                        <div class="short-description">
+                            <p>Building web interfaces for your NLP workflows</p>
+                        </div>
+            
+                        <h2 class="card-button">
+                        <a href="#">
+                            Stave: About
+                        </a>
+                        <div class="card-description">
+                            <span class="card-desc-close">&times;</span>
+                            Stave is a extendable toolkit for building front end interfaces for NLP projects.
+                            Stave excels at:
+                            <ui>
+                                <li>A general annotation and visualization interface for core NLP tasks.</li>
+                                <li>Integrated and backed up by the strong machine learning and NLP toolkit built by ASYML: Texar and Forte.</li>
+                                <li>Can be easily extended by building plugins for your requirements.</li>
+                            </ui>
+                        </div>
+                        </h2>
+            
+                        <div class="marketing-buttons">
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="https://github.com/asyml/stave"
+                            role="button"
+                            >
+                            <img
+                                src="casl-summary-assets/assets/GitHub-Mark-32px.png"
+                            />Github &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="#"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/document-icon.png"
+                            />Docs &raquo;</a
+                            >
+                        </p>
+                        <p>
+                            <a
+                            class="btn btn-default"
+                            href="#"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/example-icon.png"
+                            />Examples &raquo;</a
+                            >
+                            <a
+                            class="btn btn-default"
+                            href="#"
+                            role="button"
+                            ><img
+                                src="casl-summary-assets/assets/teacher-icon.png"
+                            />Tutorials &raquo;</a
+                            >
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            
+                <!-- START THE FEATURETTES -->
+            
+                <div class="row featurette">
+                    <div class="col-md-7">
+                    <h2>
+                        Get Started <span class="text-muted"></span>
+                    </h2>
+            
+                    <div class="install-selector">
+                        <div class="line">
+                        <div class="line-name">Tool</div>
+                        <div class="line-options">
+                            <div
+                            class="selected line-option"
+                            data-option-name="texar-tf"
+                            data-option-type="tool"
+                            >
+                            Texar-TF
+                            </div>
+                            <div
+                            class="line-option"
+                            data-option-name="texar-pytorch"
+                            data-option-type="tool"
+                            >
+                            Texar-PyTorch
+                            </div>
+                            <div
+                            class="line-option"
+                            data-option-name="forte"
+                            data-option-type="tool"
+                            >
+                            Forte
+                            </div>
+                            <div
+                            class="line-option"
+                            data-option-name="stave"
+                            data-option-type="tool"
+                            >
+                            Stave
+                            </div>
+                            <div
+                            class="line-option"
+                            data-option-name="adaptdl"
+                            data-option-type="tool"
+                            >
+                            AdaptDL
+                            </div>
+                            <div
+                            class="line-option"
+                            data-option-name="autodist"
+                            data-option-type="tool"
+                            >
+                            AutoDist
+                            </div>
+                            <div
+                            class="line-option"
+                            data-option-name="tuun"
+                            data-option-type="tool"
+                            >
+                            Tuun
+                            </div>
+                        </div>
+                        </div>
+                        <div class="line">
+                        <div class="line-name">Build</div>
+                        <div class="line-options">
+                            <div
+                            class="selected line-option"
+                            data-option-name="stable"
+                            data-option-type="build"
+                            >
+                            Stable
+                            </div>
+                            <div
+                            class="line-option"
+                            data-option-name="nightly"
+                            data-option-type="build"
+                            >
+                            Nightly
+                            </div>
+                        </div>
+                        </div>
+                        <div class="line">
+                        <div class="line-name">Package</div>
+                        <div class="line-options">
+                            <div
+                            class="selected line-option"
+                            data-option-name="pip"
+                            data-option-type="package"
+                            >
+                            pip
+                            </div>
+                            <div
+                            class="line-option"
+                            data-option-name="conda"
+                            data-option-type="package"
+                            >
+                            conda
+                            </div>
+                            <div
+                            class="line-option"
+                            data-option-name="source"
+                            data-option-type="package"
+                            >
+                            source
+                            </div>
+                        </div>
+                        </div>
+                        <div class="line">
+                        <div class="line-name">Language</div>
+                        <div class="line-options">
+                            <div
+                            class="selected line-option"
+                            data-option-name="python3.6"
+                            data-option-type="language"
+                            >
+                            Python3.6
+                            </div>
+                            <div
+                            class="line-option"
+                            data-option-name="python3.7"
+                            data-option-type="language"
+                            >
+                            Python3.7
+                            </div>
+                        </div>
+                        </div>
+                        <div class="line">
+                        <div class="line-name">Run this command</div>
+                        <div class="line-options">
+                            <div class="line-run-command">
+                            pip3 install texar
+                            </div>
+                            <button class="copy-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 19h10v1h-10v-1zm14-13v18h-18v-6h-6v-18h18v6h6zm-18 0h10v-4h-14v14h4v-10zm16 2h-1.93c-.669 0-1.293.334-1.664.891l-1.406 2.109h-3.93l-1.406-2.109c-.371-.557-.995-.891-1.664-.891h-2v14h14v-14zm-12 6h10v-1h-10v1zm0 3h10v-1h-10v1z"/></svg>
+                            <span>Copy</span>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+            
+                    <!-- <p class="lead">Click to copy the install command</p>
+                    <code class="getstarted" id="startcode"
+                        >pip install git+https://github.com/asyml/texar#egg=texar</code
+                    ><button
+                        type="button"
+                        id="change"
+                        onclick="copyToClipboard('#startcode');change();"
+                        class="startbutton"
+                    >
+                        Copy
+                    </button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container marketing">
+                    <section id="partners">
+                        <h2>Partners</h2>
+                        <div>
+                            <a href="https://petuum.com">
+                                <img src="../assets/img/petuum.svg" alt="Petuum, Inc. logo" title="Petuum">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://www.cmu.edu">
+                                <img src="../assets/img/cmu.svg" alt="Carnegie Mellon University">
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- copy text js -->
+    <script>
+        function copyToClipboard(element) {
+          var $temp = $('<input>');
+          $('body').append($temp);
+          $temp.val($(element).text()).select();
+          document.execCommand('copy');
+          $temp.remove();
+        }
+      </script>
+      <!-- click to change the text on the button -->
+      <script>
+        function change() {
+          var lable = $('#change')
+            .text()
+            .trim();
+          if (lable == 'Hide') {
+            $('#glyphicons_halflingsregular').text('Copy');
+          } else {
+            $('#change').text('Copied');
+          }
+        }
+      </script>
+  
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script>
+        window.jQuery ||
+          document.write('<script src="js/vendor/jquery.min.js"><\/script>');
+      </script>
+      <script src="casl-summary-assets/js/bootstrap.min.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="casl-summary-assets/js/ie10-viewport-bug-workaround.js"></script>
+      <!--
+      <script>$(function(){$(".typed").typed({strings: ["Text Generation Toolkit", "Flexibility", "Modular", "Dialog System", "Machine Translation", "Question Answering"],typeSpeed: 60,loop: true  });});</script>
+      -->
+      <script src="casl-summary-assets/js/typed.min.js"></script>
+  
+      <!-- installer options -->
+      <script>
+        const availableInstallOptions = {
+          // tf, stable
+          'texar-tf,stable,pip,python3.6':
+            'pip3 install texar',
+          'texar-tf,stable,pip,python3.7':
+            'pip3 install texar',
+          'texar-tf,stable,conda,python3.6':
+            'Coming soon ...',
+          'texar-tf,stable,conda,python3.7':
+            'Coming soon ...',
+          'texar-tf,stable,source,python3.6':
+            '# Download from <a href="https://github.com/asyml/texar/releases">https://github.com/asyml/texar/releases</a>',
+          'texar-tf,stable,source,python3.7':
+            '# Download from <a href="https://github.com/asyml/texar/releases">https://github.com/asyml/texar/releases</a>',
+          // tf, nightly
+          'texar-tf,nightly,pip,python3.6':
+            'pip3 install git+https://github.com/asyml/texar#egg=texar',
+          'texar-tf,nightly,pip,python3.7':
+            'pip3 install git+https://github.com/asyml/texar#egg=texar',
+          'texar-tf,nightly,conda,python3.6':
+            'Coming soon ...',
+          'texar-tf,nightly,conda,python3.7':
+            'Coming soon ...',
+          'texar-tf,nightly,source,python3.6':
+            '# Follow instructions at this URL: <a href="https://github.com/asyml/texar#installation">https://github.com/asyml/texar#installation</a>',
+          'texar-tf,nightly,source,python3.7':
+            '# Follow instructions at this URL: <a href="https://github.com/asyml/texar#installation">https://github.com/asyml/texar#installation</a>',
+          // pytorch, stable
+          'texar-pytorch,stable,pip,python3.6':
+            'pip3 install texar-pytorch',
+          'texar-pytorch,stable,pip,python3.7':
+            'pip3 install texar-pytorch',
+          'texar-pytorch,stable,conda,python3.6':
+            'Coming soon ...',
+          'texar-pytorch,stable,conda,python3.7':
+            'Coming soon ...',
+          'texar-pytorch,stable,source,python3.6':
+            '# Download from <a href="https://github.com/asyml/texar-pytorch/releases">https://github.com/asyml/texar-pytorch/releases</a>',
+          'texar-pytorch,stable,source,python3.7':
+            '# Download from <a href="https://github.com/asyml/texar-pytorch/releases">https://github.com/asyml/texar-pytorch/releases</a>',
+          // pytorch, nightly
+          'texar-pytorch,nightly,pip,python3.6':
+            'pip3 install git+https://github.com/asyml/texar-pytorch#egg=texar',
+          'texar-pytorch,nightly,pip,python3.7':
+            'pip3 install git+https://github.com/asyml/texar-pytorch#egg=texar',
+          'texar-pytorch,nightly,conda,python3.6':
+            'Coming soon ...',
+          'texar-pytorch,nightly,conda,python3.7':
+            'Coming soon ...',
+          'texar-pytorch,nightly,source,python3.6':
+            '# Follow instructions at this URL: <a href="https://github.com/asyml/texar-pytorch#installation">https://github.com/asyml/texar-pytorch#installation</a>',
+          'texar-pytorch,nightly,source,python3.7':
+            '# Follow instructions at this URL: <a href="https://github.com/asyml/texar-pytorch#installation">https://github.com/asyml/texar-pytorch#installation</a>',
+          // forte, stable
+          'forte,stable,pip,python3.6':
+            'pip install forte',
+          'forte,stable,pip,python3.7':
+            'pip install forte',
+          'forte,stable,conda,python3.6':
+            'conda install forte',
+          'forte,stable,conda,python3.7':
+            'conda install forte',
+          'forte,stable,source,python3.6':
+            'Coming soon ...',
+          'forte,stable,source,python3.7':
+            'Coming soon ...',
+          // forte, nightly
+          'forte,nightly,pip,python3.6':
+            'pip install git+https://github.com/asyml/forte#egg=forte',
+          'forte,nightly,pip,python3.7':
+            'pip install git+https://github.com/asyml/forte#egg=forte',
+          'forte,nightly,conda,python3.6':
+            'Not Applicable',
+          'forte,nightly,conda,python3.7':
+            'Not Applicable',
+          'forte,nightly,source,python3.6':
+            '# Follow instructions at: https://github.com/asyml/forte/blob/master/README.md#download-and-installation',
+          'forte,nightly,source,python3.7':
+            'Coming soon ...',
+        };
+  
+        function getAllInstallOptions() {
+          const options = {};
+          $('[data-option-name].selected').each(function() {
+            const optionName = $(this).data('option-name');
+            const optionType = $(this).data('option-type');
+            options[optionType] = optionName;
+          });
+  
+          return options;
+        }
+  
+        $('[data-option-name]').on('click', function(e) {
+          const optionName = $(this).data('option-name');
+          const optionType = $(this).data('option-type');
+          $(`[data-option-type="${optionType}"]`).removeClass('selected');
+          $(this).addClass('selected');
+  
+          const options = getAllInstallOptions();
+          const installOptionKey = `${options.tool},${options.build},${options.package},${options.language}`;
+          const installCmd = availableInstallOptions[installOptionKey];
+  
+          if (installCmd) {
+            $('.line-run-command').html(installCmd);
+          } else {
+            $('.line-run-command').text('Not Available');
+          }
+        });
+  
+        $('.copy-button').on('click', function() {
+          const cmd = $('.line-run-command').text().trim();
+          navigator.clipboard.writeText(cmd).then(function() {
+            $('.copy-button span').text('Copied!')
+            setTimeout(() => {
+              $('.copy-button span').text('Copy')
+            }, 2000)
+          }, function() {
+            console.error('failed to copy to clipboard')
+          });
+        })
+  
+        $('.card-button [href="#"]').on('click', function(e) {
+          e.preventDefault();
+          $(this).closest('.card-button').addClass('show-desc')
+        })
+        $('.card-desc-close').on('click', function(e) {
+          $(this).closest('.card-button').removeClass('show-desc')
+        });
+      </script>
+    </body>
+</html>

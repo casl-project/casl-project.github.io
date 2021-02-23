@@ -378,6 +378,85 @@ h3 {
     color: var(--color-pet-blue-bright);
 }
 
+/* || Research section */
+#research .updates-container {
+    color: var(--color-update-card-text);
+    width: var(--min-width);
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#research .update-card {
+    background-color: var(--color-update-card-bg);
+    width: 254px;
+    min-width: 254px;
+    height: 210px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+#research .up-card-logo {
+    max-width: 240px;
+    max-height: 60px;
+    margin: 5px auto;
+}
+
+#research .up-card-logo img {
+    max-width: 240px;
+    max-height: 60px;
+}
+
+#research .up-card-title {
+    color: var(--color-pet-blue-darkest);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 0 2px;
+}
+
+#research .up-card-subtitle {
+    color: var(--color-black);
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 16px;
+    margin: 0 2px;
+}
+
+#research .up-card-desc {
+    color: var(--color-pet-blue-darkest);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    margin: 0 2px;
+}
+
+#research .up-card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    background-color: #d3d3d3;
+    height: 15px;
+    align-items: center;
+    padding: 10px;
+}
+
+#research .update-card a {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--color-black);
+}
+
 /* || Partners section */
 #partners img {
     height: 44px;

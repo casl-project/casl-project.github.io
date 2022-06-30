@@ -152,6 +152,14 @@ h3 {
     text-align: left;
 }
 
+center {
+    text-align: center;
+}
+
+bold {
+    font-weight: 700;
+}
+
 .main-container {
     margin: 0 auto;
     padding: 30px 0;
